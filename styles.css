@@ -1,0 +1,58 @@
+body {
+    background-image: url("images/drumkit.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.drum {
+    font-size: 40px;
+}
+
+#kick {
+    position: fixed;
+    left: 49.5%;
+    top: 66%;
+}
+
+#snare {
+    position: fixed;
+    left: 61%;
+    top: 43%;
+}
+
+#hihat {
+    position: fixed;
+    left: 70%;
+    top: 38%;
+}
+
+#crash {
+    position: fixed;
+    left: 61%;
+    top: 16%;
+}
+
+#ride {
+    position: fixed;
+    left: 35%;
+    top: 15%;
+}
+
+#tom1 {
+    position: fixed;
+    left: 54%;
+    top: 25%;
+}
+
+#tom2 {
+    position: fixed;
+    left: 44%;
+    top: 24%;
+}
+
+#tom3 {
+    position: fixed;
+    left: 37%;
+    top: 37%;
+}
