@@ -27,41 +27,7 @@ function playSoundOnKeydown() {
 // use selected drum to play specific sound
 function chooseDrum(drum) {
     let sound = new Audio("sounds/" + drum + ".wav");
-    switch (drum) {
-        case "kick":
-            sound.play();
-            break;
-
-        case "snare":
-            sound.play();
-            break;
-
-        case "hihat":
-            sound.play();
-            break;
-
-        case "crash":
-            sound.play();
-            break;
-
-        case "ride":
-            sound.play();
-            break;
-
-        case "tom1":
-            sound.play();
-            break;
-
-        case "tom2":
-            sound.play();
-            break;
-
-            // missing this wav file
-        case "tom3":
-            sound.play();
-            break;
-
-    }
+    sound.play();
 }
 
 // list for key press
